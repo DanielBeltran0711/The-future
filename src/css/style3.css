@@ -46,18 +46,10 @@
     color: white;
     text-decoration: none;
   }
-  
-  .form-register a:hover {
+  .form-register button {
+    background-color: #1f53c5;
+  }
+  .form-register button:hover {
     color: white;
     text-decoration: underline;
-  }
-  
-  a {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
   }

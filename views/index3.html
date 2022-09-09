@@ -10,14 +10,22 @@
 </head>
 <body>
 
-  <section class="form-register">
-    <h4>Envio</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Dirección">
-     <a href="#">
-      <button class="controls">Enviar</button>
-    </a> 
-  </section>
-
+  <div class="registration-form">
+    <form>
+        <h4 class="text-center">Envio</h4>
+        <div class="form-group">
+            <input class="form-control item" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control item" type="text" name="text" id="text" placeholder="Dirección" required>
+        </div>
+        <div class="form-group-one" id="btn">
+          <a href="#"> 
+            <button class="button" type="submit">Enviar</button>
+          </a>  
+        </div>
+    </form>
+</div>
+  <script src="/src/js/main3.js"></script>
 </body>
 </html>

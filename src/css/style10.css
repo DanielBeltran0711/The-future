@@ -147,4 +147,15 @@ body::-webkit-scrollbar-thumb{
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
+    .article{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-Width: 500px){
+    .article{
+        grid-template-columns: 1fr;
+    }
+    .article img{
+        height: 270px;
+    }
 }
